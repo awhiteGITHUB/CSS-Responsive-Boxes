@@ -1,3 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Fredoka+One&display=swap');
+
+/*********************************
+ * Build Helpers
+ *********************************/
+
+
+/* shrink images for placement 
+img {
+  width: 900px; margin: 20px 0;
+  font-family: 'Baloo 2', cursive;
+ 
+} */
+
+/*********************************
+* General
+*********************************/
 body {
-  background: blanchedalmond;
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: var(--night-forest);
+  color: var(--pale-sage);
+}   
+
+* {
+  border: 1px solid blue;
+}                              
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+   
+}
+.a {
+  display: flex;
+  min-height:10vh;
+  flex-direction: column;
+  justify-content: space-between;
+    
+}   
+
+.b {
+  display: flex;
+  min-height: 10vh;
+  flex-direction: column;
+  justify-content: space-between;
+    
+}  
+.c {
+  display: flex;
+  min-height: 30vh;
+  flex-direction: column;
+  justify-content: space-between;
+}    
+
+@media (min-width: 100px) {
+  .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .a {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.b {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.c {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }

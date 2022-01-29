@@ -1,3 +1,148 @@
 body {
-  background: peachpuff;
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: var(--night-forest);
+  color: var(--pale-sage);
+}   
+* {
+  border: 1px solid red;
+}                              
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-wrap: wrap;
+   
+  justify-content: space-between;
+    
+}
+  .a {
+    display: flex;
+    min-height:20vh;
+    flex-direction: column;
+    justify-content: space-between;
+      
+  }   
+
+  .b {
+    display: flex;
+    min-height: 5vh;
+    flex-direction: row;
+    justify-content: space-between;
+      
+  }  
+  .c {
+    display: flex;
+    min-height: 5vh;
+    flex-direction: row;
+    justify-content: space-between;
+      
+  }  
+  .d {
+    display: flex;
+    min-height: 5vh;
+    flex-direction: row;
+    justify-content: space-between;
+      
+  }  
+  .e {
+    display: flex;
+    min-height: 5vh;
+    flex-direction: row;
+    justify-content: space-between;
+      
+  }  
+  .f {
+    display: flex;
+    min-height: 5vh;
+    flex-direction: row;
+    justify-content: space-between;
+      
+  }  
+  .g {
+    display: flex;
+    min-height: 5vh;
+    flex-direction: row;
+    justify-content: space-between;
+      
+  }  
+  .h {
+    display: flex;
+    min-height: 30vh;
+    flex-direction: column;
+
+    justify-content: space-between;
+      
+  }  
+
+@media (min-width: 100px) {
+  .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .a {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.b {
+  width: 10%;
+  margin: auto;
+
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.c {
+  width: 10%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.d {
+  width: 10%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.e {
+  width: 10%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.f {
+  width: 10%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.g {
+  width: 10%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.h {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
 }
